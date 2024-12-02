@@ -26,9 +26,31 @@
         }
         h2 {
             color: #444;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
         }
         section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .values-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .values-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .values-list li:before {
+            content: '★';
+            position: absolute;
+            left: 0;
+            color: #666;
         }
     </style>
 </head>
@@ -38,6 +60,41 @@
         <section>
             <h2>About Us</h2>
             <p>We are building something amazing together.</p>
+        </section>
+
+        <section>
+            <h2>Our Mission</h2>
+            <p>To create a collaborative platform that empowers individuals to make positive changes in their communities through technology and innovation.</p>
+        </section>
+
+        <section>
+            <h2>Our Values</h2>
+            <ul class="values-list">
+                <li>Collaboration and Community</li>
+                <li>Innovation and Creativity</li>
+                <li>Transparency and Trust</li>
+                <li>Sustainable Development</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get Involved</h2>
+            <p>There are many ways to contribute to our community:</p>
+            <ul>
+                <li>Join our weekly meetings</li>
+                <li>Contribute to our projects</li>
+                <li>Share your ideas and feedback</li>
+                <li>Spread the word about our initiative</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Email: contact@newsociety.org</p>
+                <p>Twitter: @NewSociety</p>
+                <p>GitHub: github.com/new-society</p>
+            </div>
         </section>
     </div>
 </body>
